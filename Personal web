@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #7a42f4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f0f0f0;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #7a42f4;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .anime-theme {
+            background-image: url('https://i.imgur.com/a4vGgC3.jpg'); /* Example anime background image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .project {
+            background-color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #7a42f4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Anime World</h1>
+    </header>
+
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="projects" class="anime-theme">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of your project goes here. Explain what it is, how you built it, and any other details you'd like to share.</p>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Description of your project goes here. Explain what it is, how you built it, and any other details you'd like to share.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to email me at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>Follow me on social media:</p>
+        <ul>
+            <li><a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/your-profile" target="_blank">Twitter</a></li>
+            <li><a href="https://github.com/your-profile" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
